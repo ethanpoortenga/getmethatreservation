@@ -83,6 +83,8 @@ const IndexPage = () => (
       />
       <h1>
         You want it 
+      </h1>
+      <h1>
         <b>We'll book it</b>
       </h1>
       <p className={styles.intro}>
