@@ -86,15 +86,9 @@ const IndexPage = () => (
         <b>We'll book it</b>
       </h1>
       <p className={styles.intro}>
-        <b>Example pages:</b>{" "}
-        {samplePageLinks.map((link, i) => (
-          <React.Fragment key={link.url}>
-            <Link to={link.url}>{link.text}</Link>
-            {i !== samplePageLinks.length - 1 && <> · </>}
-          </React.Fragment>
-        ))}
-        <br />
-        Edit <code>src/pages/index.js</code> to update this page.
+        <b>Getting reservations in New York City is hard.</b>
+        We're here to make it easy. Our small, dedicated team is trained to snag reservations as soon as they become available, 
+        whether it be the top restaurants in the city or a casual date night.
       </p>
     </div>
     <ul className={styles.list}>
